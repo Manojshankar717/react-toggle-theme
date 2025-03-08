@@ -1,0 +1,44 @@
+/* Reset body margin */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background-color 1s ease; 
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+
+button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a7d3a4;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
